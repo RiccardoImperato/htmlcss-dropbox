@@ -18,9 +18,57 @@ body {
 
 /* #region COMMON*/
 
+img {
+    display: block;
+}
+
+.btn button {
+    all: unset;
+    padding: 12px 18px;
+    color: #ffffff;
+    background-color: #0061ff;
+    cursor: pointer;
+}
+
 /* #endregion COMMON*/
 
 /* #region HEADER*/
+
+header {
+    height: 80px;
+}
+
+header .menu {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom: 2px solid #d1d9e1;
+}
+
+header .left-menu,
+header .right-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header .menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+
 
 /* #endregion HEADER*/
 
