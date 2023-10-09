@@ -20,6 +20,7 @@ body {
 
 img {
     display: block;
+    width: 100%;
 }
 
 .btn button {
@@ -34,11 +35,8 @@ img {
 
 /* #region HEADER*/
 
-header {
-    height: 80px;
-}
-
 header .menu {
+    height: 80px;
     padding: 20px;
     position: fixed;
     top: 0;
@@ -66,6 +64,46 @@ header .menu ul {
     list-style-type: none;
     display: flex;
     gap: 40px;
+}
+
+header .header-bottom {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    background-color: #b4d0e7;
+}
+
+header .container.big {
+    padding-top: 100px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+header .container.big h1 {
+    font-size: 70px;
+}
+
+header .container.big .jumbo {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    bottom: -70px;
+}
+
+header .container.big .jumbo-left {
+    width: 30%;
+}
+
+header .container.big .jumbo-left .btn {
+    margin: 35px 0;
+}
+
+header .container.big .jumbo-left i {
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+header .container.big .jumbo-right {
+    width: 70%;
 }
 
 
