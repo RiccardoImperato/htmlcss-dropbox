@@ -44,6 +44,15 @@ img {
     text-align: center;
 }
 
+.btn-white {
+    all: unset;
+    padding: 12px 18px;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
 /* #endregion COMMON*/
 
 /* #region HEADER*/
@@ -203,7 +212,7 @@ main .container .col-foot .user {
 }
 
 main .container .col-foot .type {
-    width: 70%;
+    width: 75%;
 }
 
 main .container .col-foot {
@@ -225,6 +234,30 @@ main .container .col-foot h3 {
 main .container .col-foot p {
     margin-top: 55px;
 }
+
+main .container .partner {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 170px;
+}
+
+main .container .partner .image {
+    width: 70%;
+}
+
+main .container .partner .text {
+    width: 30%;
+}
+
+main .container .partner .text h3 {
+    margin: 65px 0 0;
+}
+
+
+main .container .partner .text p {
+    margin: 30px 0;
+}
+
 
 
 /* #endregion MAIN*/
