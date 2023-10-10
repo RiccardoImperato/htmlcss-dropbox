@@ -335,6 +335,7 @@ main .mega-container .logos {
 main .mega-container .designit {
     padding: 50px;
     background-color: #f5f5f5;
+    overflow-y: scroll;
 }
 
 main .mega-container .designit .autore {
