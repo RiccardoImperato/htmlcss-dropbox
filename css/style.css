@@ -37,7 +37,7 @@ img {
 
 .btn {
     all: unset;
-    padding: 8px 12px;
+    padding: 5px 10px;
     color: #ffffff;
     background-color: #0061ff;
     cursor: pointer;
@@ -75,7 +75,6 @@ img {
 header .menu {
     height: 80px;
     line-height: 80px;
-    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -91,13 +90,11 @@ header .menu {
 header .left-menu,
 header .right-menu {
     display: flex;
-    align-items: center;
 }
 
 header .menu a:not(.btn) {
     text-decoration: none;
     color: #000000;
-    padding: 0 20px;
     display: block;
 }
 
@@ -105,6 +102,11 @@ header .menu ul {
     list-style-type: none;
     display: flex;
 }
+
+header .menu li {
+    padding: 0 20px;
+}
+
 
 header .menu li:hover:not(#logo, .btn-container) {
     border-bottom: 2px solid #000000;
@@ -158,7 +160,7 @@ header .container.big .jumbo-right {
 
 /* #region MAIN*/
 
-/* Sezione1 */
+/* Sezione1: Selezione piano business */
 
 main {
     margin-top: 160px;
@@ -257,9 +259,9 @@ main .container .col-foot p {
     margin-top: 55px;
 }
 
-/* /Sezione1 */
+/* /Sezione1: Selezione piano business */
 
-/* Sezione2 */
+/* Sezione2: Partner */
 
 main .container .partner {
     display: flex;
@@ -283,9 +285,9 @@ main .container .partner .text p {
     margin: 30px 0;
 }
 
-/* /Sezione2 */
+/*/ Sezione2: Partner */
 
-/* Sezione3 */
+/* Sezione3: Operazioni Dropbox business */
 
 main .container h2 {
     margin-bottom: 90px;
@@ -310,9 +312,9 @@ main .container .box-big h2 {
     margin-bottom: 80px;
 }
 
-/* /Sezione3 */
+/*/ Sezione3: Operazioni Dropbox business */
 
-/* Sezione4 */
+/* Sezione4: Aziende */
 
 main .mega-container {
     display: flex;
@@ -390,7 +392,33 @@ main .mega-container .logos img {
     background-color: #ffd830;
 }
 
-/* /Sezione4 */
+/*/ Sezione4: Aziende */
+
+/* Sezione5: Prova Gratuita */
+
+main .prova {
+    background-color: #b4d0e7;
+}
+
+main .prova .container {
+    padding: 135px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .prova .container .left {
+    width: 50%;
+}
+
+main .prova .container .right {
+    padding-top: 10px;
+}
+
+main .prova .container .left h2 {
+    color: #61082b;
+}
+
+/*/ Sezione5: Prova Gratuita */
 
 /* #endregion MAIN*/
 
