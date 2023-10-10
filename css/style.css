@@ -32,12 +32,12 @@ h3 {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 .btn {
     all: unset;
-    padding: 12px 18px;
+    padding: 8px 12px;
     color: #ffffff;
     background-color: #0061ff;
     cursor: pointer;
@@ -46,11 +46,15 @@ img {
 
 .btn-white {
     all: unset;
-    padding: 12px 18px;
+    padding: 8px 12px;
     background-color: #ffffff;
     cursor: pointer;
     text-align: center;
     border: 1px solid #000000;
+}
+
+.btn:hover {
+    filter: brightness(1.4);
 }
 
 .border {
@@ -64,8 +68,13 @@ img {
 
 /* Top menu */
 
+#logo {
+    align-self: center;
+}
+
 header .menu {
     height: 80px;
+    line-height: 80px;
     padding: 20px;
     position: fixed;
     top: 0;
@@ -73,8 +82,9 @@ header .menu {
     right: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #ffffff;
-    border-bottom: 2px solid #d1d9e1;
+    box-shadow: 0 1px 2px #d1d9e1;
     z-index: 99;
 }
 
@@ -82,18 +92,22 @@ header .left-menu,
 header .right-menu {
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
-header .menu li a {
+header .menu a:not(.btn) {
     text-decoration: none;
-    color: inherit;
+    color: #000000;
+    padding: 0 20px;
+    display: block;
 }
 
 header .menu ul {
     list-style-type: none;
     display: flex;
-    gap: 40px;
+}
+
+header .menu li:hover:not(#logo, .btn-container) {
+    border-bottom: 2px solid #000000;
 }
 
 /* /Top menu */
@@ -101,18 +115,18 @@ header .menu ul {
 /* Jumbotron */
 
 header .header-bottom {
-    margin-top: 80px;
     padding-bottom: 20px;
     background-color: #b4d0e7;
 }
 
 header .container.big {
-    padding-top: 100px;
+    padding-top: 80px;
     max-width: 1180px;
 }
 
 header .container.big h1 {
     font-size: 70px;
+    padding-top: 100px;
 }
 
 header .container.big .jumbo {
@@ -333,7 +347,6 @@ main .mega-container .designit .border {
 
 main .mega-container .brand {
     width: calc(100% / 2);
-    height: 30vh;
     padding: 85px;
     display: flex;
     justify-content: center;
