@@ -50,7 +50,6 @@ img {
     background-color: #ffffff;
     cursor: pointer;
     text-align: center;
-    border: 1px solid #000000;
 }
 
 .btn:hover {
@@ -172,7 +171,7 @@ main .container {
 
 main .container h2 {
     font-size: 40px;
-    margin-bottom: 75px;
+
 }
 
 main .container .radio span {
@@ -266,15 +265,19 @@ main .container .col-foot p {
 main .container .partner {
     display: flex;
     gap: 50px;
+    margin-bottom: 150px;
 }
 
 main .container .box-big {
     width: 70%;
-    margin-bottom: 160px;
 }
 
 main .container .partner .text {
     width: 30%;
+}
+
+main .container .partner .text .btn-white {
+    border: 1px solid #000000;
 }
 
 main .container .partner .text h3 {
@@ -297,6 +300,7 @@ main .container .business {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    margin-bottom: 150px;
 }
 
 main .container .business .box-small {
@@ -317,6 +321,7 @@ main .container .box-big h2 {
 /* Sezione4: Aziende */
 
 main .mega-container {
+    margin-top: 150px;
     display: flex;
 }
 
@@ -398,6 +403,7 @@ main .mega-container .logos img {
 
 main .prova {
     background-color: #b4d0e7;
+    margin-bottom: 150px;
 }
 
 main .prova .container {
@@ -419,6 +425,23 @@ main .prova .container .left h2 {
 }
 
 /*/ Sezione5: Prova Gratuita */
+
+/* Sezione6: Domande Frequenti */
+
+main .container .domanda {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    border-top: 1px solid #000000;
+}
+
+main .container .domanda:last-child {
+    border-bottom: 1px solid #000000;
+}
+
+/*/ Sezione6: Domande Frequenti */
+
+
 
 /* #endregion MAIN*/
 
