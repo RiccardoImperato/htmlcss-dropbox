@@ -428,20 +428,38 @@ main .prova .container .left h2 {
 
 main .container .domanda {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 45px 0;
     border-top: 1px solid #000000;
     position: relative;
 }
 
-main .container .domanda .chevron-up {
+main .container .domanda .titolo {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .container .risposta {
+    padding-top: 35px;
+    display: none;
+}
+
+main .container .domanda:hover .risposta {
+    display: block;
+}
+
+main .container .domanda .chevron .chevron-up {
     position: absolute;
     right: 0;
     display: none;
 }
 
-main .container .risposta {
-    padding: 0 0 45px;
+main .container .domanda:hover .chevron-up {
+    display: block;
+}
+
+main .container .domanda:hover .chevron-down {
+    display: none;
 }
 
 main .container .domanda:last-child {
