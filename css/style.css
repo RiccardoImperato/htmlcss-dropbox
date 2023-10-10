@@ -27,7 +27,12 @@ h3 {
 /* #region COMMON*/
 
 .container {
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+.container.big {
+    max-width: 1180px;
 }
 
 img {
@@ -120,14 +125,10 @@ header .header-bottom {
     background-color: #b4d0e7;
 }
 
-header .container.big {
-    padding-top: 80px;
-    max-width: 1180px;
-}
 
 header .container.big h1 {
     font-size: 70px;
-    padding-top: 100px;
+    padding-top: 180px;
 }
 
 header .container.big .jumbo {
@@ -163,10 +164,6 @@ header .container.big .jumbo-right {
 
 main {
     margin-top: 160px;
-}
-
-main .container {
-    max-width: 1000px;
 }
 
 main .container h2 {
@@ -441,10 +438,48 @@ main .container .domanda:last-child {
 
 /*/ Sezione6: Domande Frequenti */
 
-
-
 /* #endregion MAIN*/
 
 /* #region FOOTER*/
+
+footer {
+    margin-top: 150px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+footer .container.big {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .container.big ul {
+    list-style-type: none;
+    width: calc(100% / 5);
+    padding-bottom: 100px;
+}
+
+footer .container.big ul h3 {
+    margin-bottom: 30px;
+}
+
+footer .container.big li {
+    margin: 15px 0;
+}
+
+footer .container.big .lingua {
+    color: #999999;
+    padding: 50px 30px 50px 0;
+    border-top: 1px solid #ffffff;
+}
+
+footer .container.big .lingua span {
+    margin-left: 10px;
+}
+
+footer .container.big .lingua i {
+    vertical-align: middle;
+}
 
 /* #endregion FOOTER*/
