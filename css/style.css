@@ -471,6 +471,11 @@ footer .container.big {
     justify-content: space-between;
 }
 
+footer .container.big a {
+    text-decoration: none;
+    color: inherit;
+}
+
 footer .container.big ul {
     list-style-type: none;
     padding-bottom: 100px;
