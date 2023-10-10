@@ -166,14 +166,9 @@ main {
     margin-top: 160px;
 }
 
-main .container h2 {
-    font-size: 40px;
+main .container .radio label {
 
-}
-
-main .container .radio span {
-
-    margin: 0 50px 0 5px;
+    margin-right: 50px;
 }
 
 main .container .plan {
@@ -434,7 +429,7 @@ main .container .domanda {
     position: relative;
 }
 
-main .container .domanda .titolo {
+main .container .slot .domanda {
     display: flex;
     justify-content: space-between;
 }
@@ -444,25 +439,25 @@ main .container .risposta {
     display: none;
 }
 
-main .container .domanda:hover .risposta {
+main .container .slot:hover .risposta {
     display: block;
 }
 
-main .container .domanda .chevron .chevron-up {
+main .container .slot .chevron .chevron-up {
     position: absolute;
     right: 0;
     display: none;
 }
 
-main .container .domanda:hover .chevron-up {
+main .container .slot:hover .chevron-up {
     display: block;
 }
 
-main .container .domanda:hover .chevron-down {
+main .container .slot:hover .chevron-down {
     display: none;
 }
 
-main .container .domanda:last-child {
+main .container .slot:last-child {
     border-bottom: 1px solid #000000;
 }
 
