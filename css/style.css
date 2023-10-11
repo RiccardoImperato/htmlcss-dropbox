@@ -14,6 +14,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-size: 70px;
+}
+
 h2 {
     font-size: 40px;
 }
@@ -42,7 +46,7 @@ img {
 
 .btn {
     all: unset;
-    padding: 5px 10px;
+    padding: 8px 12px;
     color: #ffffff;
     background-color: #0061ff;
     cursor: pointer;
@@ -112,7 +116,6 @@ header .menu li {
     border-bottom: 2px solid transparent;
 }
 
-
 header .menu li:hover:not(#logo, .btn-container) {
     border-bottom: 2px solid #000000;
 }
@@ -122,8 +125,6 @@ header .menu li:hover:not(#logo, .btn-container) {
 /* #endregion HEADER*/
 
 /* #region MAIN*/
-
-/* Sezione1: Selezione piano business */
 
 main {
     margin-top: 80px;
@@ -135,10 +136,6 @@ main .jumbotron {
     padding-top: 100px;
     margin-bottom: 180px;
     background-color: #b4d0e7;
-}
-
-main .container.big h1 {
-    font-size: 70px;
 }
 
 main .container.big .jumbo {
@@ -175,6 +172,7 @@ main .container.big .jumbo-right {
 
 /* /Jumbotron */
 
+/* Sezione1: Selezione piano business */
 
 main .container .radio label {
     margin-right: 50px;
@@ -268,7 +266,7 @@ main .container .partner {
     margin-bottom: 150px;
 }
 
-main .container .box-big {
+.box-big {
     width: 70%;
 }
 
@@ -312,17 +310,12 @@ main .container .business .box-small h3 {
     margin-bottom: 40px;
 }
 
-
 /*/ Sezione3: Operazioni Dropbox business */
 
 /* Sezione4: Aziende */
 
 main .container .aziende h2 {
     margin-bottom: 80px;
-}
-
-main .container .aziende .box-big {
-    width: 60%;
 }
 
 main .mega-container {
@@ -376,7 +369,6 @@ main .mega-container .brand {
     height: 50%;
     position: relative;
 }
-
 
 #designit {
     background-color: #a2d39b;
