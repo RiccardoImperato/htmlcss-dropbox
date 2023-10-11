@@ -61,7 +61,7 @@ img {
     filter: brightness(1.4);
 }
 
-.border {
+hr {
     width: 25%;
     border-bottom: 1px solid #d0d0d3;
 }
@@ -118,44 +118,6 @@ header .menu li:hover:not(#logo, .btn-container) {
 
 /* /Top menu */
 
-/* Jumbotron */
-
-header .header-bottom {
-    padding-bottom: 20px;
-    background-color: #b4d0e7;
-}
-
-
-header .container.big h1 {
-    font-size: 70px;
-    padding-top: 180px;
-}
-
-header .container.big .jumbo {
-    display: flex;
-    position: relative;
-    bottom: -80px;
-}
-
-header .container.big .jumbo-left {
-    width: 30%;
-}
-
-header .container.big .jumbo-left .btn {
-    margin: 35px 0;
-}
-
-header .container.big .jumbo-left i {
-    margin-top: 70px;
-    font-size: 40px;
-}
-
-header .container.big .jumbo-right {
-    width: 70%;
-}
-
-/* /Jumbotron */
-
 /* #endregion HEADER*/
 
 /* #region MAIN*/
@@ -163,8 +125,55 @@ header .container.big .jumbo-right {
 /* Sezione1: Selezione piano business */
 
 main {
-    margin-top: 160px;
+    margin-top: 80px;
 }
+
+/* Jumbotron */
+
+main .jumbotron {
+    padding-top: 100px;
+    margin-bottom: 180px;
+    background-color: #b4d0e7;
+}
+
+main .container.big h1 {
+    font-size: 70px;
+}
+
+main .container.big .jumbo {
+    display: flex;
+    position: relative;
+    bottom: -80px;
+}
+
+main .container.big .jumbo-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+main .container.big .jumbo-left .arrow {
+    position: relative;
+    bottom: 30px;
+}
+
+main.container.big .jumbo-left .btn {
+    margin: 35px 0;
+}
+
+main .container.big .jumbo-left i {
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+main .container.big .jumbo-right {
+    width: 70%;
+}
+
+/* /Jumbotron */
+
 
 main .container .radio label {
 
@@ -319,12 +328,20 @@ main .mega-container {
 
 main .mega-container .logos,
 main .mega-container .designit {
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
 }
 
 main .mega-container .logos {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
+
+}
+
+main .mega-container .logos img {
+    filter: invert(1);
 }
 
 main .mega-container .designit {
@@ -341,21 +358,19 @@ main .mega-container .designit img {
     width: 50%;
 }
 
-main .mega-container .designit .border {
+main .mega-container .designit hr {
     margin: 40px 0;
 }
 
 main .mega-container .brand {
-    width: calc(100% / 2);
-    padding: 85px;
+    width: 50%;
+    height: 50%;
+    padding: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main .mega-container .logos img {
-    filter: invert(1);
-}
 
 #designit {
     background-color: #a2d39b;
@@ -421,12 +436,11 @@ main .prova .container .left h2 {
 
 /* Sezione6: Domande Frequenti */
 
-main .container .domanda {
+main .container .slot {
     display: flex;
     flex-direction: column;
     padding: 45px 0;
     border-top: 1px solid #000000;
-    position: relative;
 }
 
 main .container .slot .domanda {
@@ -444,8 +458,6 @@ main .container .slot:hover .risposta {
 }
 
 main .container .slot .chevron .chevron-up {
-    position: absolute;
-    right: 0;
     display: none;
 }
 
