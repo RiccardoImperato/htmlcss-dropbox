@@ -1,5 +1,4 @@
 /* #region RESET*/
-
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@
 /* #endregion RESET*/
 
 /* #region TYPOGRAPHY*/
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -74,9 +72,7 @@ hr {
 /* #endregion COMMON*/
 
 /* #region HEADER*/
-
 /* Top menu */
-
 #logo {
     align-self: center;
 }
@@ -122,17 +118,14 @@ header .menu li:hover:not(#logo, .btn-container) {
 }
 
 /* /Top menu */
-
 /* #endregion HEADER*/
 
 /* #region MAIN*/
-
 main {
     margin-top: 80px;
 }
 
 /* Jumbotron */
-
 main .jumbotron {
     padding-top: 100px;
     margin-bottom: 180px;
@@ -174,7 +167,6 @@ main .container.big .jumbo-right {
 /* /Jumbotron */
 
 /* Sezione1: Selezione piano business */
-
 main .container .radio label {
     margin-right: 50px;
 }
@@ -264,7 +256,6 @@ main .container .col-foot p {
 /* /Sezione1: Selezione piano business */
 
 /* Sezione2: Partner */
-
 main .container .partner {
     display: flex;
     gap: 50px;
@@ -294,7 +285,6 @@ main .container .partner .text p {
 /*/ Sezione2: Partner */
 
 /* Sezione3: Operazioni Dropbox business */
-
 main .container h2 {
     margin-bottom: 90px;
 }
@@ -318,7 +308,6 @@ main .container .business .box-small h3 {
 /*/ Sezione3: Operazioni Dropbox business */
 
 /* Sezione4: Aziende */
-
 main .container .aziende h2 {
     margin-bottom: 80px;
 }
@@ -435,7 +424,6 @@ main .mega-container .brand {
 /*/ Sezione4: Aziende */
 
 /* Sezione5: Prova Gratuita */
-
 main .prova {
     background-color: #b4d0e7;
     margin-bottom: 150px;
@@ -462,7 +450,6 @@ main .prova .container .left h2 {
 /*/ Sezione5: Prova Gratuita */
 
 /* Sezione6: Domande Frequenti */
-
 main .container .slot {
     display: flex;
     flex-direction: column;
@@ -501,11 +488,9 @@ main .container .slot:last-child {
 }
 
 /*/ Sezione6: Domande Frequenti */
-
 /* #endregion MAIN*/
 
 /* #region FOOTER*/
-
 footer {
     margin-top: 150px;
     color: #ffffff;
